@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<package>
+    <name>OsStudios_PagSeguroApi</name>
+    <version>1.0.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The most powerful module for PagSeguro API integration!</summary>
+    <description>Download this extension in &lt;a href="https://github.com/tiagosampaio/PagSeguroApi-by-OsStudios"&gt;Github&lt;/a&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+The newest module for Magento with UOL's PagSeguro new API system integration. It's full of new features!&#xD;
+With PagSeguroApi by Os Studios module you will be able to integrate your Magento Store with PagSeguro easily.&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;strong&gt;See below some of the new features:&lt;/strong&gt;&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;The blank page before redirect was removed and now you are redirected directly from the checkout page&lt;/li&gt;&#xD;
+&lt;li&gt;A new log panel where you can see all the notifications made by PagSeguro&lt;/li&gt;&#xD;
+&lt;li&gt;Now you can consult of orders up to 30 days old&lt;/li&gt;&#xD;
+&lt;li&gt;Now you don't need to configure the redirect page in PagSeguro panel: it's automatic*&lt;/li&gt;&#xD;
+&lt;li&gt;You can choose if the orders will be automatically invoiced, holded or canceled by the module&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;And so much more! Take a look!&lt;/p&gt;&#xD;
+&#xD;
+* It's necessary to setup PagSeguro to accept only API transactions in PagSeguro customer panel.&#xD;
+&#xD;
+&lt;hr /&gt;&#xD;
+&#xD;
+Fa&#xE7;a o download dessa extens&#xE3;o no &lt;a href="https://github.com/tiagosampaio/PagSeguroApi-by-OsStudios"&gt;Github&lt;/a&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+O novo m&#xF3;dulo para integra&#xE7;&#xE3;o do Magento com a API do PagSeguro est&#xE1; cheio de novidades!&#xD;
+Com o PagSeguroApi by Os Studios voc&#xEA; ser&#xE1; capaz de integrar sua loja em Magento com o PagSeguro de uma forma muito mais pr&#xE1;tica e f&#xE1;cil.&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;strong&gt;Veja abaixo algumas das novidades:&lt;/strong&gt;&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Remo&#xE7;&#xE3;o da p&#xE1;gina intermedi&#xE1;rio com a mensagem "Voc&#xEA; ser&#xE1; redirecionado ao site do PagSeguro"&lt;/li&gt;&#xD;
+&lt;li&gt;Voc&#xEA; ter&#xE1; um painel administrativo de log aonde poder&#xE1; ver todas as consultas feitas e notifica&#xE7;&#xF5;es enviadas pelo PagSeguro&lt;/li&gt;&#xD;
+&lt;li&gt;Voc&#xEA; poder&#xE1; fazer a consulta dos pedidos de at&#xE9; 30 dias anterioes&lt;/li&gt;&#xD;
+&lt;li&gt;N&#xE3;o &#xE9; necess&#xE1;rio configurar a p&#xE1;gina de redirecionamento no painel do PagSeguro, pois foi implementada uma p&#xE1;gina de redirecionamento din&#xE2;mica*&lt;/li&gt;&#xD;
+&lt;li&gt;Agora voc&#xEA; escolhe se os pedidos ser&#xE3;o faturados, congelados ou cancelados automaticamente pelo m&#xF3;dulo&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;E muito mais! Confira!&lt;/p&gt;&#xD;
+&#xD;
+* &#xC9; necess&#xE1;rio configurar o PagSeguro para aceitar apenas transa&#xE7;&#xF5;es via API.</description>
+    <notes>Some bugfixes and implementations.&#xD;
+&#xD;
+- Corrected some bugfixes&#xD;
+- Some implmentations was made&#xD;
+- Corrected Extra Amount Node in OsStudios_PagSeguroApi_Model_Payment_Method_Api_Xml class where extra amout node sometimes is empty.&#xD;
+- The item description must have 100 characters only.&#xD;
+- Sometimes the shipping address does not exists. Now if shipping address does not exist the billing address is used.&#xD;
+- Sometimes the class OsStudios_PagSeguroApi_Model_System_Config_Source_Config throws an offset error in public method getNodeByAttribute.&#xD;
+</notes>
+    <authors><author><name>Tiago Sampaio</name><user>tiagosampaio</user><email>tiago@tiagosampaio.com</email></author></authors>
+    <date>2013-12-08</date>
+    <time>15:19:22</time>
+    <contents><target name="magecommunity"><dir name="OsStudios"><dir name="PagSeguroApi"><dir name="Block"><dir name="Adminhtml"><dir name="Transaction"><file name="Grid.php" hash="a438969228b818ce32ff5d823d86a961"/></dir><file name="Transaction.php" hash="f55424b92529ff2b8c1b01d40c736288"/></dir><dir name="Api"><file name="Form.php" hash="a9f4868afa280d3b65405d5ad1652643"/><file name="Info.php" hash="18e5f655fe1dbd757cae6352cf98fdc1"/><file name="Installments.php" hash="9f4c1952f3e1b0b6f4c17472b3f15169"/><file name="Success.php" hash="5db8d1091ade7123af4acdb947dc9d23"/></dir></dir><dir name="Controller"><dir name="Adminhtml"><file name="Action.php" hash="89d2d0198afcc5fa8de2719cfbfa9494"/></dir><dir name="Front"><file name="Action.php" hash="dbcc3d9d1244b1128f61dedb38021ace"/></dir></dir><dir name="Helper"><file name="Data.php" hash="63f2320f4c7aebd375dd99f2e9666e86"/><file name="Visie.php" hash="824cf37c63d0fc497b25ad96e0cd0994"/></dir><dir name="Model"><file name="Abstract.php" hash="a5aef6993a8e16c5dd88d955906b0b8b"/><file name="Consulter.php" hash="5c25ff86326446ad4857046448900787"/><file name="Credentials.php" hash="59bceca387245280be81517bfb634cec"/><file name="Data.php" hash="4f139eab7c0e42710c3332db14ff0b35"/><dir name="Mysql4"><dir name="Payment"><dir name="History"><file name="Collection.php" hash="11c8648fcdc754a044b34a323120af85"/></dir><file name="History.php" hash="0618029aba8b7fe0f87aebf0600799c5"/></dir><dir name="Returns"><dir name="Transaction"><file name="Collection.php" hash="8c300445dc4f8c561e597ee9b1763ac0"/></dir><file name="Transaction.php" hash="a5b57527e2fd1a437e025ff206fabc70"/></dir></dir><file name="Observer.php" hash="eeba7d441f7d4f0ae0fc499db98dc3bf"/><dir name="Payment"><file name="History.php" hash="7112c8650830a337ac91718dfe3e6349"/><dir name="Method"><dir name="Api"><file name="Xml.php" hash="bf3987270387eb302f3e403c2853a376"/></dir><file name="Api.php" hash="aff2957080b5ad2995a4e7658dfde482"/></dir></dir><file name="Payment.php" hash="101fb3cd591c070b89aaa243a3cfc153"/><dir name="Resource"><dir name="Payment"><dir name="History"><file name="Collection.php" hash="329bcc58751e14b640e3d1b8c727a994"/></dir><file name="History.php" hash="0c8f78f4c21bd8e9621041ca0ccadfb0"/></dir><dir name="Returns"><dir name="Transaction"><file name="Collection.php" hash="2567d3b30cc3860f3e93bbaa5e62096d"/></dir><file name="Transaction.php" hash="456db82eb7cc61aa6eb9e856ca5f18e2"/></dir></dir><dir name="Returns"><file name="Transaction.php" hash="e02492a4d9c61c1f72b96fb2c3029bdb"/></dir><file name="Returns.php" hash="04a106a3966dced44e8e5a8eb921217c"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Config.php" hash="265abccff73b4ec6e62d41dde6ca8c33"/><dir name="Error"><file name="Codes.php" hash="ad905374b5e9ad09e7793dab32dbb3e5"/></dir><dir name="Shipping"><file name="Type.php" hash="5699c4a2973f0e33a8effb1239a77492"/></dir><dir name="Transaction"><dir name="Payment"><dir name="Methods"><file name="Codes.php" hash="d863e2f9772de9959b3ce785df36e8d2"/><file name="Types.php" hash="2137324a473da7267c03c67432e6641d"/></dir></dir><file name="Sources.php" hash="db0c9497894d84dc5cd6620a78e88acf"/><file name="Status.php" hash="3f7263f546087f190a07afb0d5002cef"/><file name="Types.php" hash="0f78fc633fb95f62795a85f91f605956"/></dir></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ActionsController.php" hash="4c70b0afbf6d9f0ca32dfeef74935ec9"/><file name="TransactionController.php" hash="be83d9d5c5451f82957eecee62b2c0bf"/></dir><file name="PayController.php" hash="05af0d056ff54e8cea9070d8997ba635"/><file name="ReturnsController.php" hash="3cdfa76198965181c9b42be89cd7c5aa"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6b602630e00354a545d81625f42d5c1d"/><file name="config.xml" hash="ca8967d20160e6c9c70bfa143ac14452"/><file name="system.xml" hash="6985bebee521cb7f62f4edd4a17c4f35"/></dir><dir name="sql"><dir name="pagseguroapi_setup"><file name="mysql4-install-1.0.0.0.php" hash="4cdb7970ccbaee3f3c8832b468f815c7"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="app"><dir name="design"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="osstudios"><file name="pagseguroapi.xml" hash=""/></dir></dir><dir name="template"><dir name="osstudios"><dir name="pagseguroapi"><file name="info.phtml" hash=""/></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="osstudios"><file name="pagseguroapi.xml" hash=""/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="app"><dir name="etc"><dir name="modules"><file name="OsStudios_PagSeguroApi.xml" hash=""/></dir></dir></dir></target><target name="magelocale"><dir name="app"><dir name="locale"><dir name="pt_BR"><dir name="OsStudios"><file name="PagSeguroApi.csv" hash=""/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
