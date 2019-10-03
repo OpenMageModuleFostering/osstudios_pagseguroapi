@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/OsStudios_PagSeguroApi",
+    "name": "OpenMageModuleFostering\/OsStudios_PagSeguroApi",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "The most powerful module for PagSeguro API integration!",
     "authors": [
-    {
-        "name": "Tiago Sampaio",
-        "email": "tiago@tiagosampaio.com"
-    }
-],
+        {
+            "name": "Tiago Sampaio",
+            "email": "tiago@tiagosampaio.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
